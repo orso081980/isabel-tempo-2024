@@ -1,0 +1,617 @@
+{
+    "01-24-tempo": {
+        "finca_time": 52.0,
+        "isabelgroup_time": 92.0,
+        "freetime_time": 32.0,
+        "finca_percentage": 29.545454545454547,
+        "isabelgroup_percentage": 52.27272727272727,
+        "freetime_percentage": 18.181818181818183,
+        "finca_data": [
+            {
+                "Work Description": "Clearnox - Add info to the footer",
+                "Billed Hours": "1",
+                "Work date": "2024-01-08 12:00"
+            },
+            {
+                "Work Description": "Flowin - New features and check website",
+                "Billed Hours": "3",
+                "Work date": "2024-01-08 14:00"
+            },
+            {
+                "Work Description": "Flowin - Video",
+                "Billed Hours": "2",
+                "Work date": "2024-01-10 11:00"
+            },
+            {
+                "Work Description": "Flowin - Fixing video design on mobile and desktop",
+                "Billed Hours": "2",
+                "Work date": "2024-01-12 15:00"
+            },
+            {
+                "Work Description": "Ponto - New Layout for the api page",
+                "Billed Hours": "4",
+                "Work date": "2024-01-15 13:00"
+            },
+            {
+                "Work Description": "Flowin - new single page: (recent post, layout like ponto)",
+                "Billed Hours": "5",
+                "Work date": "2024-01-16 12:00"
+            },
+            {
+                "Work Description": "Flowin: meeting with Adrien",
+                "Billed Hours": "0.5",
+                "Work date": "2024-01-18 11:00"
+            },
+            {
+                "Work Description": "Flowin: sharethis script for single post",
+                "Billed Hours": "3",
+                "Work date": "2024-01-18 12:00"
+            },
+            {
+                "Work Description": "Flowin - Blog and Archive page",
+                "Billed Hours": "2",
+                "Work date": "2024-01-22 09:00"
+            },
+            {
+                "Work Description": "Flowin - Blog and Archive page",
+                "Billed Hours": "3",
+                "Work date": "2024-01-22 14:00"
+            },
+            {
+                "Work Description": "Flowin - Blog and archive page",
+                "Billed Hours": "2.5",
+                "Work date": "2024-01-23 09:00"
+            },
+            {
+                "Work Description": "Flowin - Add video in different languages with different subtitles (home)",
+                "Billed Hours": "2",
+                "Work date": "2024-01-23 13:00"
+            },
+            {
+                "Work Description": "Flowin - Blog and archive page",
+                "Billed Hours": "2",
+                "Work date": "2024-01-23 15:00"
+            },
+            {
+                "Work Description": "Flowin - Multi level menu for desktop and mobile (internal links, external links, parent links)",
+                "Billed Hours": "2.5",
+                "Work date": "2024-01-25 09:00"
+            },
+            {
+                "Work Description": "Flowin - Last minute changes for Suzanne (guide and press release)",
+                "Billed Hours": "3",
+                "Work date": "2024-01-25 12:00"
+            },
+            {
+                "Work Description": "Flowin - Multi level menu for desktop and mobile (internal links, external links, parent links)",
+                "Billed Hours": "2",
+                "Work date": "2024-01-25 15:00"
+            },
+            {
+                "Work Description": "Flowin - Acc for blog and archive page and multi-menu links",
+                "Billed Hours": "2.5",
+                "Work date": "2024-01-26 09:00"
+            },
+            {
+                "Work Description": "Flowin - Acc for blog and archive page and multi-menu links",
+                "Billed Hours": "2",
+                "Work date": "2024-01-26 13:00"
+            },
+            {
+                "Work Description": "Flowin - Add linkedin platform in the website on prod (3 languages)",
+                "Billed Hours": "2",
+                "Work date": "2024-01-26 15:00"
+            },
+            {
+                "Work Description": "Clearnox calculator - Kick off meeting",
+                "Billed Hours": "1",
+                "Work date": "2024-01-30 14:30"
+            },
+            {
+                "Work Description": "Clearnox Calculator - Kick off project",
+                "Billed Hours": "1.5",
+                "Work date": "2024-01-30 15:30"
+            },
+            {
+                "Work Description": "Clearnox - Analysis functionality (xlsx and mockups)",
+                "Billed Hours": "3.5",
+                "Work date": "2024-01-31 13:30"
+            }
+        ]
+    },
+    "02-24-tempo": {
+        "finca_time": 69.0,
+        "isabelgroup_time": 99.0,
+        "freetime_time": 0,
+        "finca_percentage": 41.07142857142857,
+        "isabelgroup_percentage": 58.92857142857143,
+        "freetime_percentage": 0.0,
+        "finca_data": [
+            {
+                "Work Description": "Clearnox - Calculator (set up project)",
+                "Billed Hours": "2.5",
+                "Work date": "2024-02-01 09:00"
+            },
+            {
+                "Work Description": "Clearnox - Calculator",
+                "Billed Hours": "1",
+                "Work date": "2024-02-01 16:00"
+            },
+            {
+                "Work Description": "Digicrowd - Update System (legacy and problems)",
+                "Billed Hours": "2.5",
+                "Work date": "2024-02-02 09:00"
+            },
+            {
+                "Work Description": "Clearnox Calculator - setup",
+                "Billed Hours": "3",
+                "Work date": "2024-02-02 14:00"
+            },
+            {
+                "Work Description": "Cleanox - Password protected page issue",
+                "Billed Hours": "1",
+                "Work date": "2024-02-05 09:00"
+            },
+            {
+                "Work Description": "Clearnox - Calculator",
+                "Billed Hours": "3",
+                "Work date": "2024-02-05 14:00"
+            },
+            {
+                "Work Description": "Cleanox - Protected page style",
+                "Billed Hours": "2.5",
+                "Work date": "2024-02-06 09:00"
+            },
+            {
+                "Work Description": "Clearnox - Meeting with Luis Rafael",
+                "Billed Hours": "0.5",
+                "Work date": "2024-02-06 12:00"
+            },
+            {
+                "Work Description": "Clearnox - Calculator",
+                "Billed Hours": "2",
+                "Work date": "2024-02-06 15:00"
+            },
+            {
+                "Work Description": "Cleanox - Calculator",
+                "Billed Hours": "2.5",
+                "Work date": "2024-02-07 09:00"
+            },
+            {
+                "Work Description": "Clearnox - Meeting with Luis Rafael - New version of calculator",
+                "Billed Hours": "0.5",
+                "Work date": "2024-02-07 14:00"
+            },
+            {
+                "Work Description": "Meeting with Miro about Clearnox version",
+                "Billed Hours": "0.5",
+                "Work date": "2024-02-07 14:30"
+            },
+            {
+                "Work Description": "Clearnox - New version of Calculator - V 0",
+                "Billed Hours": "2",
+                "Work date": "2024-02-07 15:00"
+            },
+            {
+                "Work Description": "Clearnox - Password protected plugin (change fields)",
+                "Billed Hours": "4",
+                "Work date": "2024-02-08 09:00"
+            },
+            {
+                "Work Description": "Clearnox - Plugin for password protected page",
+                "Billed Hours": "0.5",
+                "Work date": "2024-02-08 14:30"
+            },
+            {
+                "Work Description": "Clearnox - Weekly meeting with Luis Rafael",
+                "Billed Hours": "0.5",
+                "Work date": "2024-02-08 15:30"
+            },
+            {
+                "Work Description": "Clearnox - Calculator v.0 with changes",
+                "Billed Hours": "1",
+                "Work date": "2024-02-08 16:00"
+            },
+            {
+                "Work Description": "Clearnox - Calculator v.0 with changes",
+                "Billed Hours": "4",
+                "Work date": "2024-02-09 09:00"
+            },
+            {
+                "Work Description": "Clearnox - Push to production",
+                "Billed Hours": "1",
+                "Work date": "2024-02-09 13:00"
+            },
+            {
+                "Work Description": "Clearnox - Calculator v.0 with changes (and form)",
+                "Billed Hours": "3",
+                "Work date": "2024-02-09 14:00"
+            },
+            {
+                "Work Description": "Clearnox - Calculator",
+                "Billed Hours": "1",
+                "Work date": "2024-02-12 09:00"
+            },
+            {
+                "Work Description": "Clearnox - Setting up email for the calculator",
+                "Billed Hours": "2",
+                "Work date": "2024-02-12 13:00"
+            },
+            {
+                "Work Description": "Clearnox - Calculator email system",
+                "Billed Hours": "4",
+                "Work date": "2024-02-13 12:00"
+            },
+            {
+                "Work Description": "Flowin - New layout (acc) and fix pipelines (aryo)",
+                "Billed Hours": "1",
+                "Work date": "2024-02-13 16:00"
+            },
+            {
+                "Work Description": "Clearnox - Add sections to the price page",
+                "Billed Hours": "2",
+                "Work date": "2024-02-14 12:00"
+            },
+            {
+                "Work Description": "Clearnox - Pipelines fixed",
+                "Billed Hours": "2.5",
+                "Work date": "2024-02-19 11:30"
+            },
+            {
+                "Work Description": "Clearnox - Corentin and Louis Rafael Feedback",
+                "Billed Hours": "2",
+                "Work date": "2024-02-29 09:00"
+            },
+            {
+                "Work Description": "Meeting with Louis Rafael",
+                "Billed Hours": "0.5",
+                "Work date": "2024-02-29 15:30"
+            },
+            {
+                "Work Description": "Flowin - Problems with pipelines and changes",
+                "Billed Hours": "2.5",
+                "Work date": "2024-02-20 09:00"
+            },
+            {
+                "Work Description": "Flowin - Go live",
+                "Billed Hours": "1",
+                "Work date": "2024-02-21 09:00"
+            },
+            {
+                "Work Description": "Flowin - Small fixes and train Adrien",
+                "Billed Hours": "1",
+                "Work date": "2024-02-21 12:00"
+            },
+            {
+                "Work Description": "Meeting with Miro about clearnox and next week",
+                "Billed Hours": "0.5",
+                "Work date": "2024-02-22 15:30"
+            },
+            {
+                "Work Description": "Clearnox - Calculator",
+                "Billed Hours": "1",
+                "Work date": "2024-02-23 10:00"
+            },
+            {
+                "Work Description": "Clearnox - Calculator",
+                "Billed Hours": "3",
+                "Work date": "2024-02-23 12:00"
+            },
+            {
+                "Work Description": "Meeting with LR for the Clearnox Calculator v.3",
+                "Billed Hours": "0.5",
+                "Work date": "2024-02-26 14:30"
+            },
+            {
+                "Work Description": "Clearnox - Calculator v.3",
+                "Billed Hours": "2",
+                "Work date": "2024-02-26 15:00"
+            },
+            {
+                "Work Description": "Clearnox - Calculator v.3",
+                "Billed Hours": "3",
+                "Work date": "2024-02-27 12:00"
+            },
+            {
+                "Work Description": "Clearnox - v.3 Corentin Feedback",
+                "Billed Hours": "1.5",
+                "Work date": "2024-02-28 12:00"
+            },
+            {
+                "Work Description": "Meeting with Corentin about Clearnox v.3",
+                "Billed Hours": "0.5",
+                "Work date": "2024-02-28 13:30"
+            }
+        ]
+    },
+    "03-24-tempo": {
+        "finca_time": 14.5,
+        "isabelgroup_time": 153.5,
+        "freetime_time": 0,
+        "finca_percentage": 8.630952380952381,
+        "isabelgroup_percentage": 91.36904761904762,
+        "freetime_percentage": 0.0,
+        "finca_data": [
+            {
+                "Work Description": "Clearnox - Calculator v.3 and email template",
+                "Billed Hours": "3",
+                "Work date": "2024-03-01 10:00"
+            },
+            {
+                "Work Description": "Clearnox - Calculator in 3 languages",
+                "Billed Hours": "3",
+                "Work date": "2024-03-01 13:00"
+            },
+            {
+                "Work Description": "Flowin - Fix images in template and explain how to work with webp",
+                "Billed Hours": "1",
+                "Work date": "2024-03-05 09:00"
+            },
+            {
+                "Work Description": "Clearnox meeting - LR and Miroslav",
+                "Billed Hours": "0.5",
+                "Work date": "2024-03-08 14:30"
+            },
+            {
+                "Work Description": "Clearnox - Added plugin and translate fields (finalize before going live)",
+                "Billed Hours": "2",
+                "Work date": "2024-03-08 15:00"
+            },
+            {
+                "Work Description": "Clearnox - Checking spam issue",
+                "Billed Hours": "1",
+                "Work date": "2024-03-19 09:00"
+            },
+            {
+                "Work Description": "Changes for codabox calculator / Multibanking script / Isabelgroup (plugins)",
+                "Billed Hours": "2",
+                "Work date": "2024-03-21 12:00"
+            },
+            {
+                "Work Description": "Prepare request to go live (Isabelgroup duplicator page and codabox email in the calculator)",
+                "Billed Hours": "1",
+                "Work date": "2024-03-21 14:00"
+            },
+            {
+                "Work Description": "Flowin - new page and different logos\n\nhttps://www.myflowin.com/en/access-e-invoicing-api-documentation/",
+                "Billed Hours": "1",
+                "Work date": "2024-03-28 12:00"
+            }
+        ]
+    },
+    "04-24-tempo": {
+        "finca_time": 22.0,
+        "isabelgroup_time": 122.0,
+        "freetime_time": 24.0,
+        "finca_percentage": 13.095238095238097,
+        "isabelgroup_percentage": 72.61904761904762,
+        "freetime_percentage": 14.285714285714285,
+        "finca_data": [
+            {
+                "Work Description": "Clearnox - New popup",
+                "Billed Hours": "1",
+                "Work date": "2024-04-11 09:00"
+            },
+            {
+                "Work Description": "Codabox Calculator - New Matomo and mailto + cc",
+                "Billed Hours": "1",
+                "Work date": "2024-04-11 10:00"
+            },
+            {
+                "Work Description": "Flowin - Change after Suzanne and Corentin feedback",
+                "Billed Hours": "3",
+                "Work date": "2024-04-16 14:00"
+            },
+            {
+                "Work Description": "Flowin - Meeting with Corentin",
+                "Billed Hours": "0.5",
+                "Work date": "2024-04-17 12:30"
+            },
+            {
+                "Work Description": "Pentest Results - Fixes for Finca",
+                "Billed Hours": "4",
+                "Work date": "2024-04-17 13:00"
+            },
+            {
+                "Work Description": "Pentest results - Fixes for banking",
+                "Billed Hours": "2",
+                "Work date": "2024-04-18 11:00"
+            },
+            {
+                "Work Description": "Flowin - New request from Suzanne (dev page, menu header and logo)",
+                "Billed Hours": "2.5",
+                "Work date": "2024-04-03 12:00"
+            },
+            {
+                "Work Description": "Clearnox - going live with DevOps",
+                "Billed Hours": "2",
+                "Work date": "2024-04-04 13:00"
+            },
+            {
+                "Work Description": "Codabox Calculator - Switch matomo",
+                "Billed Hours": "0.5",
+                "Work date": "2024-04-10 12:00"
+            },
+            {
+                "Work Description": "Clearnox - New version of pipelines (c3,s3, polylang) acc",
+                "Billed Hours": "1.5",
+                "Work date": "2024-04-10 12:30"
+            },
+            {
+                "Work Description": "Flowin - Meeting with Suzanne",
+                "Billed Hours": "0.5",
+                "Work date": "2024-04-10 14:00"
+            },
+            {
+                "Work Description": "Flowin - access-e-invoicing-api-documentation page",
+                "Billed Hours": "2.5",
+                "Work date": "2024-04-10 14:30"
+            },
+            {
+                "Work Description": "Cleanox - Clear cache and menu",
+                "Billed Hours": "1",
+                "Work date": "2024-04-29 16:00"
+            }
+        ]
+    },
+    "05-24-tempo": {
+        "finca_time": 52.0,
+        "isabelgroup_time": 108.0,
+        "freetime_time": 0,
+        "finca_percentage": 32.5,
+        "isabelgroup_percentage": 67.5,
+        "freetime_percentage": 0.0,
+        "finca_data": [
+            {
+                "Work Description": "Flowin - Carousel mobile and desktop after Corentin new mockup:\n\nhttps://www.figma.com/design/yvOcGHFZtDzt9S86HyDDMT/Website?node-id=3104-131&t=RYvfaU8p91QO2tDq-0",
+                "Billed Hours": "1",
+                "Work date": "2024-05-21 10:30"
+            },
+            {
+                "Work Description": "Flowin - final version for carousel and pagination (acc)",
+                "Billed Hours": "2",
+                "Work date": "2024-05-22 09:00"
+            },
+            {
+                "Work Description": "Clearnox calculator v4 - other features",
+                "Billed Hours": "1",
+                "Work date": "2024-05-23 10:30"
+            },
+            {
+                "Work Description": "Clearnox - block bug",
+                "Billed Hours": "1",
+                "Work date": "2024-05-23 12:00"
+            },
+            {
+                "Work Description": "Add Flowin logo & description in 3 languages to IG website ( solutions page )",
+                "Billed Hours": "2",
+                "Work date": "2024-05-22 12:00"
+            },
+            {
+                "Work Description": "Flowin - Video Tag",
+                "Billed Hours": "1",
+                "Work date": "2024-05-24 12:00"
+            },
+            {
+                "Work Description": "Clearnox - block bug and calculator",
+                "Billed Hours": "2",
+                "Work date": "2024-05-24 15:00"
+            },
+            {
+                "Work Description": "Clearnox calculator v4 percentage",
+                "Billed Hours": "3",
+                "Work date": "2024-05-22 14:00"
+            },
+            {
+                "Work Description": "Live with Multibanking calculator and Flowin",
+                "Billed Hours": "2",
+                "Work date": "2024-05-23 13:00"
+            },
+            {
+                "Work Description": "Flowin - Carousel mobile and desktop after Suzanne feedback:\n\nhttps://www.figma.com/design/yvOcGHFZtDzt9S86HyDDMT/Website?node-id=3104-131&t=RYvfaU8p91QO2tDq-0",
+                "Billed Hours": "2",
+                "Work date": "2024-05-21 12:00"
+            },
+            {
+                "Work Description": "Clearnox - block bug and calculator",
+                "Billed Hours": "2",
+                "Work date": "2024-05-23 15:00"
+            },
+            {
+                "Work Description": "Clearnox - Fix menu height",
+                "Billed Hours": "2",
+                "Work date": "2024-05-02 12:00"
+            },
+            {
+                "Work Description": "Flowing - Links for individual images",
+                "Billed Hours": "1",
+                "Work date": "2024-05-08 11:00"
+            },
+            {
+                "Work Description": "Flowin - Carousel for mobile",
+                "Billed Hours": "2",
+                "Work date": "2024-05-08 09:00"
+            },
+            {
+                "Work Description": "Flowin - Pagination",
+                "Billed Hours": "2",
+                "Work date": "2024-05-08 12:00"
+            },
+            {
+                "Work Description": "Flowin - Pagination and newer blog section",
+                "Billed Hours": "4",
+                "Work date": "2024-05-10 13:00"
+            },
+            {
+                "Work Description": "Clearnox - Calculator v3 or v4 - Kick off meeting with Luis",
+                "Billed Hours": "1",
+                "Work date": "2024-05-15 10:30"
+            },
+            {
+                "Work Description": "Clearnox - Calculator v.4",
+                "Billed Hours": "1",
+                "Work date": "2024-05-16 09:00"
+            },
+            {
+                "Work Description": "Test Wordpress 6.4.3 on clearnox acc (Decide whether or not to go to that or 6.5.3)",
+                "Billed Hours": "1",
+                "Work date": "2024-05-27 09:00"
+            },
+            {
+                "Work Description": "Codabox onboarding form - Change requested from Elisabeth Goffin",
+                "Billed Hours": "1.5",
+                "Work date": "2024-05-17 10:00"
+            },
+            {
+                "Work Description": "Codabox onboarding form - Feedback with changes from Elisabeth Goffin",
+                "Billed Hours": "2",
+                "Work date": "2024-05-17 14:00"
+            },
+            {
+                "Work Description": "Codabox Calculator",
+                "Billed Hours": "1.5",
+                "Work date": "2024-05-28 14:30"
+            },
+            {
+                "Work Description": "Flowin - Carousel live version",
+                "Billed Hours": "1",
+                "Work date": "2024-05-28 16:00"
+            },
+            {
+                "Work Description": "Codabox calculator",
+                "Billed Hours": "2",
+                "Work date": "2024-05-29 09:00"
+            },
+            {
+                "Work Description": "Clearnox - new requests (robin)",
+                "Billed Hours": "2",
+                "Work date": "2024-05-29 12:00"
+            },
+            {
+                "Work Description": "Flowin - Adding content to the carousel part (3 lang)",
+                "Billed Hours": "1",
+                "Work date": "2024-05-30 09:00"
+            },
+            {
+                "Work Description": "Clearnox - New changes request",
+                "Billed Hours": "1.5",
+                "Work date": "2024-05-30 15:30"
+            },
+            {
+                "Work Description": "Clearnox - New changes request",
+                "Billed Hours": "1.5",
+                "Work date": "2024-05-31 10:00"
+            },
+            {
+                "Work Description": "Flowin - Adjust layout for the front page",
+                "Billed Hours": "2",
+                "Work date": "2024-05-31 15:00"
+            },
+            {
+                "Work Description": "Flowin - New responsive dot carousel",
+                "Billed Hours": "3",
+                "Work date": "2024-05-07 11:00"
+            }
+        ]
+    }
+}
