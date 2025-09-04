@@ -39,117 +39,112 @@
     </div>
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
     <script>
-        document.addEventListener("DOMContentLoaded", function (event) {
-            const reportsContainer = document.querySelector('#reportsContainer');
+        document.addEventListener("DOMContentLoaded", async function() {
+  const reportsContainer = document.querySelector('#reportsContainer');
 
-            fetch('tempo_report.json')
-                .then(response => {
-                    if (!response.ok) {
-                        throw new Error(`HTTP error! status: ${response.status}`);
-                    }
-                    return response.json();
-                })
-                .then(data => {
-                    for (const [month, monthData] of Object.entries(data)) {
-                        // Create section for each month
-                        const monthSection = document.createElement('div');
-                        monthSection.classList.add('month-section');
+  try {
+    const response = await fetch('tempo_report.json');
+    const data = await response.json();
 
-                        const monthTitle = document.createElement('h2');
-                        monthTitle.textContent = month;
-                        monthSection.appendChild(monthTitle);
+    for (const [sheetName, sheetData] of Object.entries(data)) {
+      // --- Create Month Section ---
+      const monthSection = document.createElement('div');
+      monthSection.classList.add('month-section');
 
-                        // Create table
-                        const tableContainer = document.createElement('div');
-                        tableContainer.classList.add('table-container');
-                        const reportTable = document.createElement('table');
-                        reportTable.classList.add('table', 'table-striped', 'table-bordered');
-                        tableContainer.appendChild(reportTable);
-                        monthSection.appendChild(tableContainer);
+      // --- Title ---
+      const monthTitle = document.createElement('h2');
+      monthTitle.textContent = sheetName; 
+      monthSection.appendChild(monthTitle);
 
-                        const headerRow = reportTable.insertRow();
-                        ['Category', 'Hours', 'Percentage', 'Work Description', 'Billed Hours', 'Work date'].forEach(headerText => {
-                            const headerCell = document.createElement('th');
-                            headerCell.textContent = headerText;
-                            headerRow.appendChild(headerCell);
-                        });
+      // --- Table ---
+      const tableContainer = document.createElement('div');
+      tableContainer.classList.add('table-container');
+      const reportTable = document.createElement('table');
+      reportTable.classList.add('table', 'table-striped', 'table-bordered');
+      tableContainer.appendChild(reportTable);
+      monthSection.appendChild(tableContainer);
 
-                        const chartData = [];
-                        for (const [key, value] of Object.entries(monthData)) {
-                            if (key.endsWith('_time')) {
-                                const row = reportTable.insertRow();
-                                const categoryCell = row.insertCell();
-                                const hoursCell = row.insertCell();
-                                const percentageCell = row.insertCell();
+      const tableHead = reportTable.createTHead();
+      const headerRow = tableHead.insertRow();
+      ['Category', 'Hours', 'Percentage', 'Work Description', 'Billed Hours', 'Work Date'].forEach(headerText => {
+        const headerCell = document.createElement('th');
+        headerCell.textContent = headerText;
+        headerRow.appendChild(headerCell);
+      });
 
-                                categoryCell.textContent = key.replace('_time', '').replace(/^\w/, c => c.toUpperCase());
-                                hoursCell.textContent = value;
+      const tableBody = reportTable.createTBody();
+      const chartData = [];
 
-                                const percentageKey = key.replace('_time', '_percentage');
-                                percentageCell.textContent = `${(monthData[percentageKey] || 0).toFixed(2)}%`;
-                                chartData.push({ name: categoryCell.textContent, value: monthData[percentageKey] || 0 });
+      // --- Process Data for Table & Chart ---
+      for (const category of ['finca', 'isabelgroup', 'freetime']) {
+        const timeKey = category + '_time';
+        const percentageKey = category + '_percentage';
+        const dataKey = category + '_data';
 
-                                // Check if there is detailed data for this category
-                                const dataKey = key.replace('_time', '_data');
-                                if (monthData[dataKey]) {
-                                    monthData[dataKey].forEach(item => {
-                                        const dataRow = reportTable.insertRow();
-                                        const emptyCell1 = dataRow.insertCell();
-                                        const emptyCell2 = dataRow.insertCell();
-                                        const emptyCell3 = dataRow.insertCell();
-                                        const descriptionCell = dataRow.insertCell();
-                                        const hoursCell = dataRow.insertCell();
-                                        const dateCell = dataRow.insertCell();
+        if (sheetData.hasOwnProperty(timeKey)) { // Use hasOwnProperty for safer check
+          // Category Row
+          const row = tableBody.insertRow();
+          row.insertCell().textContent = category.charAt(0).toUpperCase() + category.slice(1); // Capitalize
+          row.insertCell().textContent = sheetData[timeKey];
+          row.insertCell().textContent = `${sheetData[percentageKey].toFixed(2)}%`;
+          chartData.push({ name: category, value: sheetData[percentageKey] }); 
 
-                                        descriptionCell.textContent = item['Work Description'];
-                                        hoursCell.textContent = item['Billed Hours'];
-                                        dateCell.textContent = item['Work date'];
-                                    });
-                                }
-                            }
-                        }
+          // Detailed Data Rows (if available)
+          if (sheetData.hasOwnProperty(dataKey)) {
+            for (const item of sheetData[dataKey]) {
+              const dataRow = tableBody.insertRow();
+              dataRow.insertCell().textContent = ''; // Empty cell in first column
+              dataRow.insertCell().textContent = ''; 
+              dataRow.insertCell().textContent = '';
+              dataRow.insertCell().textContent = item['Work Description'] || '-'; // Use '-' if missing
+              dataRow.insertCell().textContent = item['Billed Hours'] || '-';
+              dataRow.insertCell().textContent = item['Work date'] || '-';
+            }
+          }
+        }
+      }
 
-                        // Create Chart
-                        const chartContainer = document.createElement('div');
-                        chartContainer.classList.add('chart-container');
-                        const canvas = document.createElement('canvas');
-                        canvas.width = 400;
-                        canvas.height = 400;
-                        chartContainer.appendChild(canvas);
-                        monthSection.appendChild(chartContainer);
+      // --- Create Pie Chart ---
+      const chartContainer = document.createElement('div');
+      chartContainer.classList.add('chart-container');
+      const canvas = document.createElement('canvas');
+      canvas.width = 400;
+      canvas.height = 400;
+      chartContainer.appendChild(canvas);
+      monthSection.appendChild(chartContainer);
 
-                        const ctx = canvas.getContext('2d');
-                        new Chart(ctx, {
-                            type: 'pie',
-                            data: {
-                                labels: chartData.map(item => item.name),
-                                datasets: [{
-                                    data: chartData.map(item => item.value),
-                                    backgroundColor: ['#FF6384', '#36A2EB', '#FFCE56', '#4BC0C0', '#9966FF', '#FF9F40']
-                                }]
-                            },
-                            options: {
-                                responsive: true,
-                                maintainAspectRatio: false,
-                                plugins: {
-                                    title: {
-                                        display: true,
-                                        text: month
-                                    }
-                                }
-                            }
-                        });
+      const ctx = canvas.getContext('2d');
+      new Chart(ctx, {
+        type: 'pie',
+        data: {
+          labels: chartData.map(item => item.name),
+          datasets: [{
+            data: chartData.map(item => item.value),
+            backgroundColor: ['#FF6384', '#36A2EB', '#FFCE56'] // Colors for 3 categories
+          }]
+        },
+        options: {
+          responsive: true,
+          maintainAspectRatio: false,
+          plugins: {
+            title: {
+              display: true,
+              text: sheetName
+            }
+          }
+        }
+      });
+      
+      reportsContainer.appendChild(monthSection);
+    } 
 
-                        reportsContainer.appendChild(monthSection);
-                    }
-                })
-                .catch(error => {
-                    reportsContainer.innerHTML = `<div class="text-danger">Error fetching data: ${error.message}</div>`;
-                    console.error('Error fetching JSON:', error);
-                });
-        });
+  } catch (error) {
+    reportsContainer.innerHTML = `<div class="text-danger">Error: ${error.message}</div>`;
+    console.error('Error fetching or processing data:', error);
+  }
+});
+
     </script>
-
 
 </body>
 

@@ -1,0 +1,120 @@
+Sheet Name,Finca Time,Isabelgroup Time,Freetime Time,Finca Percentage,Isabelgroup Percentage,Freetime Percentage,Work Description,Billed Hours,Work date
+01-24-tempo,52,92,32,29.54545455,52.27272727,18.18181818,Clearnox - Add info to the footer,1,2024-01-08 12:00
+,,,,,,,Flowin - New features and check website,3,2024-01-08 14:00
+,,,,,,,Flowin - Video,2,2024-01-10 11:00
+,,,,,,,Flowin - Fixing video design on mobile and desktop,2,2024-01-12 15:00
+,,,,,,,Ponto - New Layout for the api page,4,2024-01-15 13:00
+,,,,,,,"Flowin - new single page: (recent post, layout like ponto)",5,2024-01-16 12:00
+,,,,,,,Flowin: meeting with Adrien,0.5,2024-01-18 11:00
+,,,,,,,Flowin: sharethis script for single post,3,2024-01-18 12:00
+,,,,,,,Flowin - Blog and Archive page,2,2024-01-22 09:00
+,,,,,,,Flowin - Blog and Archive page,3,2024-01-22 14:00
+,,,,,,,Flowin - Blog and archive page,2.5,2024-01-23 09:00
+,,,,,,,Flowin - Add video in different languages with different subtitles (home),2,2024-01-23 13:00
+,,,,,,,Flowin - Blog and archive page,2,2024-01-23 15:00
+,,,,,,,"Flowin - Multi level menu for desktop and mobile (internal links, external links, parent links)",2.5,2024-01-25 09:00
+,,,,,,,Flowin - Last minute changes for Suzanne (guide and press release),3,2024-01-25 12:00
+,,,,,,,"Flowin - Multi level menu for desktop and mobile (internal links, external links, parent links)",2,2024-01-25 15:00
+,,,,,,,Flowin - Acc for blog and archive page and multi-menu links,2.5,2024-01-26 09:00
+,,,,,,,Flowin - Acc for blog and archive page and multi-menu links,2,2024-01-26 13:00
+,,,,,,,Flowin - Add linkedin platform in the website on prod (3 languages),2,2024-01-26 15:00
+,,,,,,,Clearnox calculator - Kick off meeting,1,2024-01-30 14:30
+,,,,,,,Clearnox Calculator - Kick off project,1.5,2024-01-30 15:30
+,,,,,,,Clearnox - Analysis functionality (xlsx and mockups),3.5,2024-01-31 13:30
+02-24-tempo,69,99,0,41.07142857,58.92857143,0,Clearnox - Calculator (set up project),2.5,2024-02-01 09:00
+,,,,,,,Clearnox - Calculator,1,2024-02-01 16:00
+,,,,,,,Digicrowd - Update System (legacy and problems),2.5,2024-02-02 09:00
+,,,,,,,Clearnox Calculator - setup,3,2024-02-02 14:00
+,,,,,,,Cleanox - Password protected page issue,1,2024-02-05 09:00
+,,,,,,,Clearnox - Calculator,3,2024-02-05 14:00
+,,,,,,,Cleanox - Protected page style,2.5,2024-02-06 09:00
+,,,,,,,Clearnox - Meeting with Luis Rafael,0.5,2024-02-06 12:00
+,,,,,,,Clearnox - Calculator,2,2024-02-06 15:00
+,,,,,,,Cleanox - Calculator,2.5,2024-02-07 09:00
+,,,,,,,Clearnox - Meeting with Luis Rafael - New version of calculator,0.5,2024-02-07 14:00
+,,,,,,,Meeting with Miro about Clearnox version,0.5,2024-02-07 14:30
+,,,,,,,Clearnox - New version of Calculator - V 0,2,2024-02-07 15:00
+,,,,,,,Clearnox - Password protected plugin (change fields),4,2024-02-08 09:00
+,,,,,,,Clearnox - Plugin for password protected page,0.5,2024-02-08 14:30
+,,,,,,,Clearnox - Weekly meeting with Luis Rafael,0.5,2024-02-08 15:30
+,,,,,,,Clearnox - Calculator v.0 with changes,1,2024-02-08 16:00
+,,,,,,,Clearnox - Calculator v.0 with changes,4,2024-02-09 09:00
+,,,,,,,Clearnox - Push to production,1,2024-02-09 13:00
+,,,,,,,Clearnox - Calculator v.0 with changes (and form),3,2024-02-09 14:00
+,,,,,,,Clearnox - Calculator,1,2024-02-12 09:00
+,,,,,,,Clearnox - Setting up email for the calculator,2,2024-02-12 13:00
+,,,,,,,Clearnox - Calculator email system,4,2024-02-13 12:00
+,,,,,,,Flowin - New layout (acc) and fix pipelines (aryo),1,2024-02-13 16:00
+,,,,,,,Clearnox - Add sections to the price page,2,2024-02-14 12:00
+,,,,,,,Clearnox - Pipelines fixed,2.5,2024-02-19 11:30
+,,,,,,,Clearnox - Corentin and Louis Rafael Feedback,2,2024-02-29 09:00
+,,,,,,,Meeting with Louis Rafael,0.5,2024-02-29 15:30
+,,,,,,,Flowin - Problems with pipelines and changes,2.5,2024-02-20 09:00
+,,,,,,,Flowin - Go live,1,2024-02-21 09:00
+,,,,,,,Flowin - Small fixes and train Adrien,1,2024-02-21 12:00
+,,,,,,,Meeting with Miro about clearnox and next week,0.5,2024-02-22 15:30
+,,,,,,,Clearnox - Calculator,1,2024-02-23 10:00
+,,,,,,,Clearnox - Calculator,3,2024-02-23 12:00
+,,,,,,,Meeting with LR for the Clearnox Calculator v.3,0.5,2024-02-26 14:30
+,,,,,,,Clearnox - Calculator v.3,2,2024-02-26 15:00
+,,,,,,,Clearnox - Calculator v.3,3,2024-02-27 12:00
+,,,,,,,Clearnox - v.3 Corentin Feedback,1.5,2024-02-28 12:00
+,,,,,,,Meeting with Corentin about Clearnox v.3,0.5,2024-02-28 13:30
+03-24-tempo,14.5,153.5,0,8.630952381,91.36904762,0,Clearnox - Calculator v.3 and email template,3,2024-03-01 10:00
+,,,,,,,Clearnox - Calculator in 3 languages,3,2024-03-01 13:00
+,,,,,,,Flowin - Fix images in template and explain how to work with webp,1,2024-03-05 09:00
+,,,,,,,Clearnox meeting - LR and Miroslav,0.5,2024-03-08 14:30
+,,,,,,,Clearnox - Added plugin and translate fields (finalize before going live),2,2024-03-08 15:00
+,,,,,,,Clearnox - Checking spam issue,1,2024-03-19 09:00
+,,,,,,,Changes for codabox calculator / Multibanking script / Isabelgroup (plugins),2,2024-03-21 12:00
+,,,,,,,Prepare request to go live (Isabelgroup duplicator page and codabox email in the calculator),1,2024-03-21 14:00
+,,,,,,,"Flowin - new page and different logos
+
+https://www.myflowin.com/en/access-e-invoicing-api-documentation/",1,2024-03-28 12:00
+04-24-tempo,22,122,24,13.0952381,72.61904762,14.28571429,Clearnox - New popup,1,2024-04-11 09:00
+,,,,,,,Codabox Calculator - New Matomo and mailto + cc,1,2024-04-11 10:00
+,,,,,,,Flowin - Change after Suzanne and Corentin feedback,3,2024-04-16 14:00
+,,,,,,,Flowin - Meeting with Corentin,0.5,2024-04-17 12:30
+,,,,,,,Pentest Results - Fixes for Finca,4,2024-04-17 13:00
+,,,,,,,Pentest results - Fixes for banking,2,2024-04-18 11:00
+,,,,,,,"Flowin - New request from Suzanne (dev page, menu header and logo)",2.5,2024-04-03 12:00
+,,,,,,,Clearnox - going live with DevOps,2,2024-04-04 13:00
+,,,,,,,Codabox Calculator - Switch matomo,0.5,2024-04-10 12:00
+,,,,,,,"Clearnox - New version of pipelines (c3,s3, polylang) acc",1.5,2024-04-10 12:30
+,,,,,,,Flowin - Meeting with Suzanne,0.5,2024-04-10 14:00
+,,,,,,,Flowin - access-e-invoicing-api-documentation page,2.5,2024-04-10 14:30
+,,,,,,,Cleanox - Clear cache and menu,1,2024-04-29 16:00
+05-24-tempo,52,108,0,32.5,67.5,0,"Flowin - Carousel mobile and desktop after Corentin new mockup:
+
+https://www.figma.com/design/yvOcGHFZtDzt9S86HyDDMT/Website?node-id=3104-131&t=RYvfaU8p91QO2tDq-0",1,2024-05-21 10:30
+,,,,,,,Flowin - final version for carousel and pagination (acc),2,2024-05-22 09:00
+,,,,,,,Clearnox calculator v4 - other features,1,2024-05-23 10:30
+,,,,,,,Clearnox - block bug,1,2024-05-23 12:00
+,,,,,,,Add Flowin logo & description in 3 languages to IG website ( solutions page ),2,2024-05-22 12:00
+,,,,,,,Flowin - Video Tag,1,2024-05-24 12:00
+,,,,,,,Clearnox - block bug and calculator,2,2024-05-24 15:00
+,,,,,,,Clearnox calculator v4 percentage,3,2024-05-22 14:00
+,,,,,,,Live with Multibanking calculator and Flowin,2,2024-05-23 13:00
+,,,,,,,"Flowin - Carousel mobile and desktop after Suzanne feedback:
+
+https://www.figma.com/design/yvOcGHFZtDzt9S86HyDDMT/Website?node-id=3104-131&t=RYvfaU8p91QO2tDq-0",2,2024-05-21 12:00
+,,,,,,,Clearnox - block bug and calculator,2,2024-05-23 15:00
+,,,,,,,Clearnox - Fix menu height,2,2024-05-02 12:00
+,,,,,,,Flowing - Links for individual images,1,2024-05-08 11:00
+,,,,,,,Flowin - Carousel for mobile,2,2024-05-08 09:00
+,,,,,,,Flowin - Pagination,2,2024-05-08 12:00
+,,,,,,,Flowin - Pagination and newer blog section,4,2024-05-10 13:00
+,,,,,,,Clearnox - Calculator v3 or v4 - Kick off meeting with Luis,1,2024-05-15 10:30
+,,,,,,,Clearnox - Calculator v.4,1,2024-05-16 09:00
+,,,,,,,Test Wordpress 6.4.3 on clearnox acc (Decide whether or not to go to that or 6.5.3),1,2024-05-27 09:00
+,,,,,,,Codabox onboarding form - Change requested from Elisabeth Goffin,1.5,2024-05-17 10:00
+,,,,,,,Codabox onboarding form - Feedback with changes from Elisabeth Goffin,2,2024-05-17 14:00
+,,,,,,,Codabox Calculator,1.5,2024-05-28 14:30
+,,,,,,,Flowin - Carousel live version,1,2024-05-28 16:00
+,,,,,,,Codabox calculator,2,2024-05-29 09:00
+,,,,,,,Clearnox - new requests (robin),2,2024-05-29 12:00
+,,,,,,,Flowin - Adding content to the carousel part (3 lang),1,2024-05-30 09:00
+,,,,,,,Clearnox - New changes request,1.5,2024-05-30 15:30
+,,,,,,,Clearnox - New changes request,1.5,2024-05-31 10:00
+,,,,,,,Flowin - Adjust layout for the front page,2,2024-05-31 15:00
+,,,,,,,Flowin - New responsive dot carousel,3,2024-05-07 11:00

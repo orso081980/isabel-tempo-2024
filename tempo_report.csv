@@ -1,0 +1,191 @@
+Sheet Name,Finca Time,Isabelgroup Time,Freetime Time,Finca Percentage,Isabelgroup Percentage,Freetime Percentage,Work Description,Billed Hours,Work date
+09-24-tempo,61.0,107.0,0,36.30952380952381,63.69047619047619,0.0,Clearnox - Calculator -> Change all the yearly fee to 2000,1.00,2024-09-02 09:00:00
+,,,,,,,Clearnox - Calculator -> Change all the yearly fee to 2000,1.00,2024-09-02 12:00:00
+,,,,,,,"Create all the changes ACC (Clearnox, Clearfacts, Clearnox and My Flowin) for footer, mailgun and calculator",2.50,2024-09-02 13:00:00
+,,,,,,,"Create all the changes ACC (Clearnox, Clearfacts, Clearnox and My Flowin) for footer, mailgun and calculator to push to PROD tomorrow",1.00,2024-09-02 16:00:00
+,,,,,,,"CAB - Live websites (Clearnox, Clearfacts, Codabox, My Flowin)",0.50,2024-09-03 11:00:00
+,,,,,,,"CAB - Live websites (Clearnox, Clearfacts, Codabox, My Flowin)",1.00,2024-09-03 12:00:00
+,,,,,,,"New footer and header for: Clearnox, Codabox, Clearfacts, My Flowin",1.00,2024-09-03 13:00:00
+,,,,,,,"Test - Clearfacts, Codabox, Clearnox and My Flowin",2.00,2024-09-03 15:00:00
+,,,,,,,Migration workshop Isabel -> Finca,1.00,2024-09-03 14:00:00
+,,,,,,,Dynamic header for Zoomit,2.00,2024-09-04 12:00:00
+,,,,,,,Dynamic header for Clearfacts,2.00,2024-09-04 14:00:00
+,,,,,,,Setup Mailgun for Onboarding Codabox Form,1.00,2024-09-04 16:00:00
+,,,,,,,Setup Mailgun for Onboarding Codabox Form,1.00,2024-09-05 10:30:00
+,,,,,,,Live: Zoomit and Clearfacts (add scripts and css),2.00,2024-09-05 12:00:00
+,,,,,,,Zoomit: fix dynamic footer and safe svg,1.00,2024-09-05 14:00:00
+,,,,,,,Setup Mailgun for Onboarding Codabox Form,5.00,2024-09-06 12:00:00
+,,,,,,,Clearnox - Create dynamic popup in javascript for the calculator (urgent request),1.50,2024-09-09 15:30:00
+,,,,,,,Clearnox - Create dynamic popup in javascript for the calculator (urgent request),1.00,2024-09-10 12:00:00
+,,,,,,,Clearnox - Create dynamic popup in javascript for the calculator (urgent request),0.50,2024-09-10 11:00:00
+,,,,,,,Live & Test - Zoomit,1.00,2024-09-10 13:00:00
+,,,,,,,Migration workshop Isabel -> Finca,1.00,2024-09-10 14:00:00
+,,,,,,,Clearfacts - Debugging problem with pipelines (timeout),1.50,2024-09-11 10:00:00
+,,,,,,,Clearfacts - Debugging problem with pipelines (timeout),1.50,2024-09-11 12:00:00
+,,,,,,,"Codabox - New page template (V1)
+https://www.codabox.com/fr/codabox-business/",1.00,2024-09-11 13:30:00
+,,,,,,,"Codabox - New page template (V2)
+https://www.codabox.com/fr/codabox-business/",1.00,2024-09-11 14:30:00
+,,,,,,,Clearfacts - Fix Chronological job and test it,1.50,2024-09-11 15:30:00
+,,,,,,,Clearnox - Real Calculator Popup System,2.00,2024-09-13 10:00:00
+,,,,,,,Clearnox - Real Calculator Popup System,1.00,2024-09-13 13:30:00
+,,,,,,,Onboarding Codabox Form - Migration,2.50,2024-09-13 14:30:00
+,,,,,,,Migration workshop Isabel -> Finca,2.00,2024-09-17 14:00:00
+,,,,,,,Onboarding Codabox Form - Changes requested by Elisabeth (Live),1.00,2024-09-17 16:00:00
+,,,,,,,"Onboarding Form Codabox - Mailgun, static and env var key",2.00,2024-09-18 13:00:00
+,,,,,,,Onboarding Codabox Form - Changes requested by Elisabeth (Live),1.00,2024-09-18 16:00:00
+,,,,,,,Onboarding Codabox Form - Add user (Elisabeth) and check permissions on the other ones,0.50,2024-09-19 14:30:00
+,,,,,,,Onboarding form Codabox - Create an explain both the email template and the translation string to Elisabeth,1.00,2024-09-23 16:00:00
+,,,,,,,Migration workshop Isabel -> Finca,2.00,2024-09-24 14:00:00
+,,,,,,,Finca - Report on the current migration (what to do and what not),1.00,2024-09-24 16:00:00
+,,,,,,,Zoomit - Migrate (and fix broken script),3.00,2024-09-25 09:00:00
+,,,,,,,"Clearfacts - Export files, clean db, debug and clean the app, as zip in the Finca's channel on teams and report the action taken.",3.50,2024-09-26 12:30:00
+,,,,,,,Onboarding codabox form - Test with devops (and adjust APIs and setups),2.00,2024-09-27 14:00:00
+10-24-tempo,91.25,92.75,0,49.59239130434783,50.40760869565217,0.0,Migration workshop Isabel -> Finca,2.00,2024-10-22 14:00:00
+,,,,,,,"Codabox:
+
+Clean the DB before exporting it
+Ensure the website is patched (see recent pentesting report) before exporting it
+(cbox is different from other project)",1.50,2024-10-22 09:00:00
+,,,,,,,"Codabox:
+
+Clean the DB before exporting it
+Ensure the website is patched (see recent pentesting report) before exporting it
+(cbox is different from other project)",2.00,2024-10-22 12:00:00
+,,,,,,,Codabox: Check and eventually sunset brevo API key (To finalize with Miro and Lydia),1.00,2024-10-25 14:00:00
+,,,,,,,Export & zip duplicator package and store it in our Teams (migration) channel,2.00,2024-10-25 15:00:00
+,,,,,,,"Codabox:
+
+Search & Replace S3 paths with local uploads folder for media assets
+Export media assets paths
+Embed Brevo API key and bind it with WP
+Embed mailgun API key and bind it with WP",3.00,2024-10-25 10:00:00
+,,,,,,,Export & zip duplicator package and store it in our Teams (migration) channel,1.00,2024-10-25 13:00:00
+,,,,,,,Migration - Report on teams for the migration: chat Migration mavericks and Migration workshop Isabel -> Finca (also align with Adrien),2.25,2024-10-28 09:00:00
+,,,,,,,"Onboarding codabox form:
+
+Clean the DB before exporting it
+Remove Cloud Front plugin before export DB",2.00,2024-10-28 12:00:00
+,,,,,,,"Onboarding codabox form:
+
+Clean the DB before exporting it
+Remove S3 plugin before export DB",1.50,2024-10-28 15:30:00
+,,,,,,,Codabox (& onboarding form) - Debug email system (brevo and mailgun),1.00,2024-10-22 16:00:00
+,,,,,,,Codabox - Debug tinymce shortcode with Adrien,1.00,2024-10-28 14:00:00
+,,,,,,,"Codabox:
+
+Install duplicator premium plugin (Get licence from FINCA)",2.00,2024-10-23 09:00:00
+,,,,,,,"Codabox:
+
+Replace Polylang PRO plugin's license once provided b Finca  boyz",0.50,2024-10-23 11:00:00
+,,,,,,,"Codabox:
+
+Replace Polylang PRO plugin's license once provided b Finca  boyz",1.50,2024-10-23 12:00:00
+,,,,,,,Clearnox - supervising migration handover to Finca (and DNS),2.00,2024-10-23 14:00:00
+,,,,,,,"Codabox:
+
+migrate both mailgun and bluhost (they will switch plugin when live)",1.00,2024-10-23 16:00:00
+,,,,,,,Codabox - Issue on the live website (Matomo.js to investigate),2.00,2024-10-24 09:00:00
+,,,,,,,"Codabox:
+
+Search & Replace S3 paths with local uploads folder for media assets
+Export media assets paths
+Embed Brevo API key and bind it with WP
+Embed mailgun API key and bind it with WP",4.00,2024-10-24 12:00:00
+,,,,,,,"Clearnox:
+
+Identify issue with microsoft dynamic and DNS",1.00,2024-10-24 16:00:00
+,,,,,,,Preparation for the CAB meeting,0.50,2024-10-01 09:00:00
+,,,,,,,Migration workshop Isabel -> Finca,2.00,2024-10-01 14:00:00
+,,,,,,,"Clearnox:
+
+Clean the DB before exporting it
+Remove Cloud Front plugin before export DB
+Remove S3 plugin before export DB",2.00,2024-10-02 13:00:00
+,,,,,,,Zoomit - Debug permission and s3 bucket,2.00,2024-10-03 09:00:00
+,,,,,,,"Clearnox:
+
+Ensure the website is updated to a stable WP core version
+Ensure the website is patched (see recent pentesting report) before exporting it
+Ensure svg-support plugin is installed and replaced with the old one",1.50,2024-10-03 11:30:00
+,,,,,,,"Onboarding codabox form:
+
+Ensure the website is updated to a stable WP core version
+Ensure the website is patched (see recent pentesting report) before exporting it
+Ensure svg-support plugin is installed and replaced with the old one",1.50,2024-10-29 09:00:00
+,,,,,,,Zoomit - Debug permission and s3 bucket (DevOps),1.50,2024-10-03 14:30:00
+,,,,,,,Isabelgroup - Extract media folder db with a py script,1.00,2024-10-03 16:00:00
+,,,,,,,"Clearnox:
+
+Install duplicator premium plugin (Get licence from FINCA)
+Replace Polylang PRO plugin's license once provided b Finca  boyz
+Search & Replace S3 paths with local uploads folder for media assets",3.00,2024-10-04 13:30:00
+,,,,,,,"Clearnox:
+
+Export media assets paths",0.50,2024-10-04 16:30:00
+,,,,,,,"Clearnox:
+
+Export media assets paths
+Embed Mailgun API key and bind it with WP",2.25,2024-10-07 09:00:00
+,,,,,,,"Clearnox: Redesign problem (re-export db, s3 media folder, and sync local environment 😵‍💫)",3.00,2024-10-07 12:00:00
+,,,,,,,Migration workshop Isabel -> Finca,2.00,2024-10-08 14:00:00
+,,,,,,,"Clearnox - Eliminate dead plugins, and database entries",3.00,2024-10-10 14:00:00
+,,,,,,,Clearfact - Report incident on DNS,1.00,2024-10-14 12:00:00
+,,,,,,,Migration workshop Isabel -> Finca,2.00,2024-10-15 14:00:00
+,,,,,,,Clearnox - Export the new bundle on teams channel,2.00,2024-10-16 12:00:00
+,,,,,,,Clearnox - Checking missing files,1.00,2024-10-17 11:00:00
+,,,,,,,Ensure all media files are exported properly including PDF files,2.00,2024-10-18 12:30:00
+,,,,,,,"Codabox:
+
+Clean the DB before exporting it
+Remove Cloud Front plugin before export DB
+Remove S3 plugin before export DB",2.25,2024-10-21 09:00:00
+,,,,,,,"Codabox:
+
+Clean the DB before exporting it
+Remove Cloud Front plugin before export DB
+Remove S3 plugin before export DB",1.00,2024-10-21 12:00:00
+,,,,,,,"Codabox:
+
+Ensure the website is updated to a stable WP core version
+Ensure the website is patched (see recent pentesting report) before exporting it
+Ensure svg-support plugin is installed and replaced with the old one",3.00,2024-10-21 14:00:00
+,,,,,,,Migration workshop Isabel -> Finca,2.00,2024-10-29 14:00:00
+,,,,,,,"Onboarding codabox form:
+
+Install duplicator premium plugin (Get licence from FINCA)",1.00,2024-10-29 16:00:00
+,,,,,,,"Onboarding Codabox form:
+
+Replace Polylang PRO plugin's license once provided b Finca  boyz
+Search & Replace S3 paths with local uploads folder for media assets
+Export media assets paths",3.00,2024-10-30 09:00:00
+,,,,,,,"Onboarding Codabox form:
+
+Replace Polylang PRO plugin's license once provided b Finca  boyz
+Search & Replace S3 paths with local uploads folder for media assets
+Export media assets paths",2.00,2024-10-30 13:30:00
+,,,,,,,"Onboarding form Codabox:
+
+Replacing all the static path url with a dynamic URL (Debug issue with same name themes)",2.00,2024-10-30 15:30:00
+,,,,,,,"Onboarding codabox form:
+
+Embed Brevo API key and bind it with WP
+Export & zip duplicator package and store it in our Teams (migration) channel",2.00,2024-10-31 10:00:00
+,,,,,,,"Onboarding codabox form:
+
+Ensure the website is updated to a stable WP core version
+Ensure the website is patched (see recent pentesting report) before exporting it
+Ensure svg-support plugin is installed and replaced with the old one",2.50,2024-10-29 11:30:00
+,,,,,,,"Onboarding codabox form:
+
+Embed Brevo API key and bind it with WP
+Export & zip duplicator package and store it in our Teams (migration) channel",1.00,2024-10-31 16:00:00
+,,,,,,,"Onboarding codabox form:
+
+Install duplicator premium plugin (Get licence from FINCA)
+Solve issue with same name themes and static url paths",1.00,2024-10-31 15:00:00
+,,,,,,,"Clearnox:
+
+Ensure the website is updated to a stable WP core version
+Ensure the website is patched (see recent pentesting report) before exporting it
+Ensure svg-support plugin is installed and replaced with the old one",0.50,2024-10-03 14:00:00
