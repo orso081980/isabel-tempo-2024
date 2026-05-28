@@ -4,8 +4,6 @@ on:
   push:
     branches:
       - main
-    paths:
-      - "jira-track/**"
 
 permissions:
   contents: read
@@ -40,13 +38,19 @@ jobs:
           cd jira-track
           NODE_ENV=production npm run build
 
+      - name: Assemble site
+        run: |
+          mkdir -p _site/jira-track
+          cp index.html _site/
+          cp -r jira-track/dist/. _site/jira-track/
+
       - name: Setup Pages
         uses: actions/configure-pages@v4
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: "jira-track/dist"
+          path: "_site"
 
   deploy:
     environment:
