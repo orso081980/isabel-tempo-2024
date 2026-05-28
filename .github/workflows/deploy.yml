@@ -40,9 +40,7 @@ jobs:
 
       - name: Assemble site
         run: |
-          mkdir -p _site/jira-track
-          cp index.html _site/
-          cp -r jira-track/dist/. _site/jira-track/
+          cp -r jira-track/dist _site
 
       - name: Setup Pages
         uses: actions/configure-pages@v4

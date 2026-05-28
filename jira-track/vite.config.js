@@ -4,7 +4,7 @@ import tailwindcss from "@tailwindcss/vite";
 import { fileURLToPath, URL } from "node:url";
 
 export default defineConfig({
-  base: process.env.NODE_ENV === "production" ? "/isabel-tempo-2024/jira-track/" : "/",
+  base: process.env.NODE_ENV === "production" ? "/isabel-tempo-2024/" : "/",
   plugins: [vue(), tailwindcss()],
   resolve: {
     alias: {
