@@ -2,8 +2,7 @@
 
 ## ✅ Code is Pushed to GitHub!
 
-Your Jira Track application has been pushed to:
-**https://github.com/orso081980/isabel-tempo-2024**
+Your Jira Track application has been pushed to: **https://github.com/orso081980/isabel-tempo-2024**
 
 ## 🚀 Two Deployment Options:
 
@@ -15,11 +14,11 @@ Your Jira Track application has been pushed to:
 4. Save the settings
 
 The GitHub Actions workflow (`.github/workflows/deploy.yml`) will automatically:
+
 - Build the app when you push changes to `jira-track/`
 - Deploy to GitHub Pages
 
-**Your site will be available at:**
-`https://orso081980.github.io/isabel-tempo-2024/jira-track/`
+**Your site will be available at:** `https://orso081980.github.io/isabel-tempo-2024/jira-track/`
 
 ### Option 2: Manual Deployment with gh-pages
 
@@ -31,11 +30,13 @@ npm run deploy
 ```
 
 This will:
+
 1. Build the production version
 2. Deploy the `dist` folder to the `gh-pages` branch
 3. Deploy to: `https://orso081980.github.io/isabel-tempo-2024/jira-track/`
 
 **Note:** For this option, you need to:
+
 1. Go to **Settings** → **Pages**
 2. Under **Source**, select: **Deploy from a branch**
 3. Select branch: **gh-pages** and folder: **/ (root)**
@@ -59,6 +60,7 @@ This will:
 ## 🛠️ Development:
 
 To run locally:
+
 ```bash
 cd jira-track
 npm install
