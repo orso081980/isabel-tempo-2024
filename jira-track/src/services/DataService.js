@@ -34,6 +34,6 @@ export class DataService {
 }
 
 // Factory function following Dependency Inversion Principle
-export function createDataService(dataSource = "../tempo_report.json") {
+export function createDataService(dataSource = `${import.meta.env.BASE_URL}tempo_report.json`) {
   return new DataService(dataSource);
 }
