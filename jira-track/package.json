@@ -1,0 +1,24 @@
+{
+    "name": "jira-track",
+    "version": "1.0.0",
+    "type": "module",
+    "scripts": {
+        "dev": "vite",
+        "build": "NODE_ENV=production vite build",
+        "preview": "vite preview",
+        "deploy": "npm run build && gh-pages -d dist -e jira-track"
+    },
+    "dependencies": {
+        "chart.js": "^4.4.2",
+        "vue": "^3.4.21",
+        "vue-chartjs": "^5.3.3"
+    },
+    "devDependencies": {
+        "@tailwindcss/vite": "^4.3.0",
+        "@vitejs/plugin-vue": "^5.0.4",
+        "gh-pages": "^6.2.0",
+        "postcss": "^8.5.15",
+        "tailwindcss": "^4.3.0",
+        "vite": "^5.2.0"
+    }
+}
