@@ -2,10 +2,13 @@
   <div class="bg-white border border-gray-200 rounded-2xl p-8 mb-10 card-shadow hover:card-shadow-hover transition-all duration-300">
     <!-- Card Header -->
     <div class="flex justify-between items-center mb-8 pb-6 border-b border-gray-200">
-      <h2 class="text-3xl font-bold text-gray-900 uppercase tracking-wider">
-        {{ report.month }}
-      </h2>
-      <div class="flex items-center gap-3">
+      <div>
+        <h2 class="text-3xl font-bold text-gray-900 uppercase tracking-wider">
+          {{ report.month }}
+        </h2>
+        <p class="text-sm text-gray-400 mt-1 tracking-wide">{{ getMonthName(report.month) }}</p>
+      </div>
+      <div class="flex flex-col items-end gap-1">
         <span class="text-sm text-gray-500 uppercase tracking-wide">Total:</span>
         <span class="text-2xl font-bold text-gray-900">{{ report.totalHours }}h</span>
       </div>
@@ -47,7 +50,7 @@
         <h4 v-if="category.entries.length > 0" class="text-base font-semibold uppercase tracking-wide mt-6 mb-4" :class="getCategoryTextColor(category.name)">
           {{ category.name }}
         </h4>
-        <div class="grid gap-3">
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-3">
           <div
             v-for="(entry, index) in category.entries"
             :key="index"
@@ -56,8 +59,9 @@
             <div class="text-gray-700 text-sm leading-relaxed mb-3">
               {{ entry["Work Description"] }}
             </div>
-            <div class="flex gap-6 text-sm">
+            <div class="flex gap-6 text-sm items-center">
               <span class="font-semibold" :class="getCategoryTextColor(category.name)"> {{ entry["Billed Hours"] }}h </span>
+              <span class="text-gray-400 text-xs font-medium">{{ entryPercentage(entry["Billed Hours"]) }}%</span>
               <span class="text-gray-500">
                 {{ formatDate(entry["Work date"]) }}
               </span>
@@ -110,5 +114,20 @@ const formatDate = (dateStr) => {
     day: "numeric",
     year: "numeric",
   });
+};
+
+const entryPercentage = (billedHours) => {
+  if (!props.report.totalHours) return "0.0";
+  return ((billedHours / props.report.totalHours) * 100).toFixed(1);
+};
+
+const getMonthName = (monthStr) => {
+  // Expects format like "03-24-tempo" → "March 2024"
+  const parts = monthStr.split("-");
+  if (parts.length < 2) return monthStr;
+  const monthNum = parseInt(parts[0], 10);
+  const yearNum = parseInt(parts[1], 10) + 2000;
+  const date = new Date(yearNum, monthNum - 1, 1);
+  return date.toLocaleDateString("en-US", { month: "long", year: "numeric" });
 };
 </script>
